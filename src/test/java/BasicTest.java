@@ -78,10 +78,10 @@ public class BasicTest {
         eyes.checkWindow("Login Window");
 
         // This will create a test with two test steps.
-        driver.findElement(By.id("log-in")).click();
+//        driver.findElement(By.id("log-in")).click();
 
         // Visual checkpoint #2 - Check the app page.
-        eyes.checkWindow("App Window");
+//        eyes.checkWindow("App Window");
 
         // End the test.
         eyes.closeAsync();
